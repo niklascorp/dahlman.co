@@ -21,7 +21,7 @@
     accept_hostkey: "{{ project.repo_accept_hostkey | default(repo_accept_hostkey | default(true)) }}"
     force: yes
   ignore_errors: true
-  no_log: true
+  #no_log: true
   register: git_clone
 
 - name: Failed connection to remote repo
