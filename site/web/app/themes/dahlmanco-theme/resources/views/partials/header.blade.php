@@ -7,4 +7,5 @@
       @endif
     </nav>
   </div>
+  STAGE
 </header>
